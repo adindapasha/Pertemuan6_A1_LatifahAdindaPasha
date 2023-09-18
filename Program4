@@ -1,0 +1,11 @@
+# Deklarasi data set
+A = {100, 7, 8}
+B = {200, 4, 5}
+C = {300, 2, 3}
+D = {100, 200, 300}
+
+# Menampilkan hasil
+print("a. A U B = ", A | B)
+print("b. B U C = ", B | C)
+print("c. B U C U D = ", B | C | D)
+print("d. A U B U C U D = ", A | B | C | D)
